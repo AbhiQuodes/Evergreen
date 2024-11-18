@@ -1,0 +1,103 @@
+.product-detail-info-container {
+  padding: 70px 30px 70px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(200, 171, 205, 40%);
+  align-items: center;
+}
+.product-detail-info-box {
+  width: 100%;
+  max-width: 800px;
+  min-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 13px;
+}
+.product-detail-info-img {
+  width: 40%;
+}
+
+.product-description-box {
+  /* border:1px solid grey; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.description-detail {
+  font-size: 18px;
+  color: rgb(47, 6, 47);
+  line-height: 1.25;
+}
+.product-description {
+  font-weight: 400;
+}
+.description-btn-box {
+  width: 100%;
+  height: fit-content;
+  padding: 30px 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.description-btn {
+  width: 155px;
+  height: 55px;
+  border: 1.5px solid purple;
+  text-align: center;
+  padding: 4px;
+  border-radius: 50px;
+  font-size: 18px;
+  align-content: center;
+  background-color: rgb(244, 234, 234);
+  color: purple;
+}
+.description-btn:hover {
+  background-color: purple;
+  color: white;
+}
+.product-detail-info-img:hover {
+  scale: 1.12;
+}
+
+@media (max-width: 650px) {
+  .product-detail-info-container {
+    padding: 45px 10px;
+  }
+  .product-detail-info-box {
+    flex-direction: column;
+    box-shadow: none;
+    padding: 50px 0px;
+    min-width: 95vw;
+  }
+  .product-detail-info-img {
+    width: 89%;
+    max-height: 400px;
+  }
+  .product-description-box {
+    width: 90%;
+  }
+  .description-btn-box {
+    justify-content: space-between;
+  }
+  .description-btn {
+    width: 125px;
+    height: 55px;
+    border: 1.5px solid purple;
+    text-align: center;
+    padding: 4px;
+    border-radius: 40px;
+    font-size: 18px;
+    align-content: center;
+    background-color: rgb(244, 234, 234);
+    color: purple;
+  }
+}

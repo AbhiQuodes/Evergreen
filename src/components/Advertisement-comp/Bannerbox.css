@@ -1,0 +1,13 @@
+.Banner-container {
+  height: 300px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-img {
+  min-width: 360px;
+  width: 40%;
+  mix-blend-mode: multiply;
+  min-height: 250px;
+}
